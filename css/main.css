@@ -628,6 +628,7 @@ a:active {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    margin: 0;
   }
 }
 
@@ -660,6 +661,12 @@ a:active {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 100%;
             flex: 0 0 100%;
+  }
+}
+
+@media (max-width: 400px) {
+  .service__col {
+    padding: 0;
   }
 }
 

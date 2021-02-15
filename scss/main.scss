@@ -398,6 +398,7 @@ a:active {
 		margin: 0 -32px;
 		@media (max-width: 1650px) {
 			justify-content: center;
+			margin: 0;
 		}
 	}
 	// .service__col
@@ -413,6 +414,9 @@ a:active {
 		}
 		@media (max-width: 850px) {
 			flex: 0 0 100%;
+		}
+		@media (max-width: 400px) {
+			padding: 0;
 		}
 	}
 	// .service__item
